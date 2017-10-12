@@ -1,0 +1,24 @@
+h1{
+    color: grey;
+    text-align: center;
+}
+body {
+    background-color: powderblue;
+    
+}
+
+input{
+   
+    background: #ECE9E9;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #DEE0DE;
+    
+}
+
+.box{
+    text-align: center;
+}

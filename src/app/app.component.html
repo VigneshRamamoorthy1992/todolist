@@ -1,0 +1,12 @@
+<h1> {{title}}</h1>
+<div class="box">
+<input #input placeholder="add a todo list" (keyup.enter)="add(input.value)" name="input"/>
+<button class="button1" (click)="add(input.value)">ADD</button>
+</div>
+
+<ul>
+  <div *ngFor= "let todo of todolist">
+    <input type="checkbox"/>{{todo}}
+  </div>
+
+</ul>
